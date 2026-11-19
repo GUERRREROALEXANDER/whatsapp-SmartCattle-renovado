@@ -1,0 +1,4 @@
+# Gestor de camara en Python (carpeta camara/). El servicio de WhatsApp usa package.json.
+fastapi>=0.115,<1.0
+uvicorn>=0.34,<1.0
+pydantic-settings>=2.7,<3.0

@@ -1,0 +1,13 @@
+# MediaMTX solo para este PC: recibe el video del gestor y no lo expone a la red.
+rtspAddress: 127.0.0.1:8554
+rtpAddress: 127.0.0.1:8000
+rtcpAddress: 127.0.0.1:8001
+hlsAddress: 127.0.0.1:8888
+# Aqui no se pide contrasena: sin esta lista, cualquier pagina abierta en este PC podria leer el video.
+hlsAllowOrigins: ["http://localhost:5173", "http://127.0.0.1:5173"]
+rtmp: false
+webrtc: false
+srt: false
+moq: false
+paths:
+  all_others:
